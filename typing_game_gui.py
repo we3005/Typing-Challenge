@@ -258,7 +258,7 @@ class StartScreen(tk.Frame):
         self.inner.pack()
 
         self.subtitle_label = tk.Label(
-            self.inner, text="Test your speed. Find your weak keys.",
+            self.inner, text="Test your typing abilities",
             font=(controller.font_header, 12)
         )
         self.subtitle_label.pack(pady=(0, 25))
